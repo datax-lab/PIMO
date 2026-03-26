@@ -409,8 +409,6 @@ def fit_model(config: dict[str, Any]) -> None:
         val_cindex_values.append(val_cindex)
         val_auc_values.append(val_auc)
     
-    # End timing and memory tracking
-    measurement_results = end_measurement(start_time, process)
     
     # Save combined metric plot
     # If the code is trained for num_epochs
