@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# large research files
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+
+# raw data (CRITICAL)
+tcga_data_preparation/raw_brca/
+data/
+datasets/
+checkpoints/
+logs/
+results/
+
+# processed data
+*.zip
+tcga_data_preparation/processed_brca/
