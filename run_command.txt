@@ -1,0 +1,1 @@
+sbatch --export=gpu_num=0,cancer_type="brca",exp_num=1,learning_rate=0.00005,decay_rate=0.3,decay_epochs=100,weight_decay=0.9,num_epochs=500,num_kernels1=32,dropout1=0.58,num_kernels2=4,dropout2=0.025,activation_fn="tanh",fc_nodes=256,batch_size=256,min_epochs=200,patience=25 run.sh
